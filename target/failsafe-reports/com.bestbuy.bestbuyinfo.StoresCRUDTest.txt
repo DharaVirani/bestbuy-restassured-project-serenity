@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.bestbuyinfo.StoresCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.613 sec <<< FAILURE! - in com.bestbuy.bestbuyinfo.StoresCRUDTest
+test004(com.bestbuy.bestbuyinfo.StoresCRUDTest)  Time elapsed: 0.122 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at Script1.run(Script1.groovy:1)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:585)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:623)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:594)
+	at io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:80)
+	at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)
+	at io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)
+	at com.bestbuy.bestbuyinfo.StoresSteps.getStoreInfoByName(StoresSteps.java:80)
+	at com.bestbuy.bestbuyinfo.StoresCRUDTest.test004(StoresCRUDTest.java:79)
+

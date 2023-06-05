@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products CRUD test","This will create a new product","SUCCESS","2023-06-05T12:19:38.575+01:00[Europe/London]","0.0","4.6"
+"Products CRUD test","Verify if the product was added","SUCCESS","2023-06-05T12:19:43.240+01:00[Europe/London]","0.0","1.2"
+"Products CRUD test","This will retrieve product with id","SUCCESS","2023-06-05T12:19:44.442+01:00[Europe/London]","0.0","0.04"
+"Products CRUD test","This will update product with id","SUCCESS","2023-06-05T12:19:44.485+01:00[Europe/London]","0.0","0.18"
+"Products CRUD test","This will delete product with id","SUCCESS","2023-06-05T12:19:44.671+01:00[Europe/London]","0.0","0.07"

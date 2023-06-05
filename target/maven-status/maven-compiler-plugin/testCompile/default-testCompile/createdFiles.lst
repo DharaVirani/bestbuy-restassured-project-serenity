@@ -1,0 +1,4 @@
+com\bestbuy\testbase\ProductTestBase.class
+com\bestbuy\testbase\StoresTestBase.class
+com\bestbuy\bestbuyinfo\StoresCRUDTest.class
+com\bestbuy\bestbuyinfo\ProductsCRUDTest.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="com.bestbuy.bestbuyinfo.StoresCRUDTest" skipped="0" tests="4" time="22.61" timestamp="2023-06-05T16:17:13.528+01:00[Europe/London]"><testcase classname="com.bestbuy.bestbuyinfo.StoresCRUDTest" name="This will create a new store"/><testcase classname="com.bestbuy.bestbuyinfo.StoresCRUDTest" name="Verify if the store was added"><error message="Index: 0, Size: 0" type="java.lang.IllegalArgumentException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:57)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.bestbuy.bestbuyinfo.StoresSteps.getStoreInfoByName(StoresSteps.java:80)&#13;
+com.bestbuy.bestbuyinfo.StoresCRUDTest.test002(StoresCRUDTest.java:52)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.StoresCRUDTest" name="This will retrieve store with id"/><testcase classname="com.bestbuy.bestbuyinfo.StoresCRUDTest" name="This will update store with id"><error message="Index: 0, Size: 0" type="java.lang.IllegalArgumentException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:57)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.bestbuy.bestbuyinfo.StoresSteps.getStoreInfoByName(StoresSteps.java:80)&#13;
+com.bestbuy.bestbuyinfo.StoresCRUDTest.test004(StoresCRUDTest.java:79)&#13;
+</system-err></testcase></testsuite>
